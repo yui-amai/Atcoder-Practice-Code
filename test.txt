@@ -2,3 +2,4 @@ monday nasu
 tuesday tomato
 wednesday potato
 thursday lettuce
+friday carrot
