@@ -17,6 +17,6 @@ cat(length(cats), "\n")
 
 # 449 ms 142312 KiB -> 132 ms	54104 KiB
 
-# Or， use outer to create a matrix of all combinations
+# Or, use outer to create a matrix of all combinations
 # A <- outer(S, S, paste0)
 # A <- A[!diag(nrow = N, ncol = N)]
