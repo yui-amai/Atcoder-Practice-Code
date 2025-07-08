@@ -16,3 +16,7 @@ cat(length(cats), "\n")
 # Use expand.grid instead of combn to get all ordered pairs as above.
 
 # 449 ms 142312 KiB -> 132 ms	54104 KiB
+
+# Or， use outer to create a matrix of all combinations
+# A <- outer(S, S, paste0)
+# A <- A[!diag(nrow = N, ncol = N)]
