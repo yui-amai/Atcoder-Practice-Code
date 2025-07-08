@@ -1,4 +1,4 @@
-# R packages that Can be used in AtCoder contests
+# R packages that can be used in AtCoder contests
 
 Check updates in [codetest](https://atcoder.jp/contests/practice/custom_test) using 'library()'
 
