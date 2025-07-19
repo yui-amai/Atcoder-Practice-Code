@@ -1,11 +1,13 @@
+library(bit64)
+
 options(scipen = 100, digits = 15)
 con <- file("stdin", "r")
 lines <- readLines(con, warn = FALSE)
 close(con)
 
 Q <- as.integer(lines[1])
-val <- numeric(Q)
-cnt <- integer(Q)
+val <- integer64(Q)
+cnt <- integer64(Q)
 head <- 1L
 tail <- 0L
 
@@ -15,14 +17,14 @@ for (i in seq_len(Q)) {
   idx <- idx + 1L
 
   if (parts[1] == "1") {
-    c <- as.integer(parts[2])
-    x <- as.numeric(parts[3])
+    c <- as.integer64(parts[2])
+    x <- as.integer64(parts[3])
     tail <- tail + 1L
     val[tail] <- x
     cnt[tail] <- c
   } else {
-    k <- as.integer(parts[2])
-    s <- 0
+    k <- as.integer64(parts[2])
+    s <- as.integer64(0)
     while (k > 0L) {
       t <- min(cnt[head], k)
       s <- s + val[head] * t
@@ -34,4 +36,4 @@ for (i in seq_len(Q)) {
   }
 }
 
-# WA
+# TLE
