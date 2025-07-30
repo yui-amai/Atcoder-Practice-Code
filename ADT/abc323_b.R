@@ -1,5 +1,5 @@
 # ABC323 B - Round-Robin Tournament
-# See problem: https://atcoder.jp/contests/abc323/tasks/abc323
+# See problem: https://atcoder.jp/contests/abc323/tasks/abc323_b
 # 2025-07-29 AC+ (ADT　20250729　EASY)
 
 options(scipen = 100, digits = 15)
