@@ -1,5 +1,6 @@
 # ABC415 C - Mixture
 # See problem: https://atcoder.jp/contests/abc415/tasks/abc415_c
+# 2025-07-19 AC+
 
 import sys
 from collections import deque

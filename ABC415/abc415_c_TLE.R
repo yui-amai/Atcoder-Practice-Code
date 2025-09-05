@@ -1,5 +1,6 @@
 # ABC415 C - Mixture
 # See problem: https://atcoder.jp/contests/abc415/tasks/abc415_c
+# 2025-07-19 TLE
 
 options(scipen = 100, digits = 15)
 con <- file("stdin", "r")

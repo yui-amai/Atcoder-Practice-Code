@@ -1,5 +1,6 @@
 # ABC414 B - String Too Long
 # See problem: https://atcoder.jp/contests/abc414/tasks/abc414_b
+# 2025-07-12 AC+
 
 input <- scan("stdin", what = character(), quiet = TRUE)
 N <- as.integer(input[1])

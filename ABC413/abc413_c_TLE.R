@@ -1,3 +1,7 @@
+# ABC413 C - Large Queue
+# See problem: https://atcoder.jp/contests/abc413/tasks/abc413_c
+# 2025-07-08 TLE
+
 library(bit64)
 
 options(scipen = 100, digits = 15)

@@ -1,5 +1,6 @@
 # ABC414 A - Streamer Takahashi
 # See problem: https://atcoder.jp/contests/abc414/tasks/abc414_a
+# 2025-07-12 AC+
 
 input <- scan("stdin", what = integer(), quiet = TRUE)
 N <- input[1]

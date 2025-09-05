@@ -1,5 +1,6 @@
 # ABC414 C - Palindromic in Both Bases
 # See problem: https://atcoder.jp/contests/abc414/tasks/abc414_c
+# 2025-07-12 Not submitted
 
 input <- scan("stdin", what = numeric(), quiet = TRUE)
 A <- input[1]

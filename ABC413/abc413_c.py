@@ -1,3 +1,7 @@
+# ABC413 C - Large Queue
+# See problem: https://atcoder.jp/contests/abc413/tasks/abc413_c
+# 2025-07-08 AC-
+
 import sys
 
 input_lines = sys.stdin.read().splitlines()
